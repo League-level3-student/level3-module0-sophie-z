@@ -3,7 +3,7 @@ package _01_Simple_Array_Algorithms;
 public class _00_1D_Array_Methods {
 	//1. Complete the method so that it returns the sum of all
 	//   of the integers in the array being passed in
-	public int sumIntArray(int[] values) {
+	public static int sumIntArray(int[] values) {
 		int[] integers = new int[5];
 		int sum = 0;
 		for(int i = 0; i <= integers.length; i++){ 
