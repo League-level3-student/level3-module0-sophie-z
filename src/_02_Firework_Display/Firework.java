@@ -74,10 +74,9 @@ import java.util.Random;
 		//5. Iterate through each spark
 		for(int i=0; i<sparks.length; i++) {
 			g.setColor(Color.red); 
+			g.fillOval(357, 470, 10, 15);
 		}
 			//6. Set the color to the spark's color with g.setColor()
 			//7. Fill in an oval using the spark's x, y, and size with g.fillOval()
-		g.setColor(Color.red);
-		g.fillOval(357, 470, 50, 100);
 	}
 }
